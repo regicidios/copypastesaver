@@ -8,3 +8,6 @@ pywin32
 ```
 pip install pywin32
 ```
+
+## Setup
+The only thing required is to add a desired filepath where you'd like the textfiles to be saved in functions.py.

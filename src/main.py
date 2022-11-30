@@ -1,9 +1,6 @@
 import os
 from functions import filemake, filepath
 
-#TODO: ADD CLI METHOD TO READ IN DESIRED USER FILEPATH
-
-#UPON EXECUTION
 try:
     os.mkdir("%s/copypaste" % filepath)
 except FileExistsError:

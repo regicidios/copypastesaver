@@ -1,6 +1,5 @@
 ## About
-This is a basic project meant to provide ease of mind, as it is aimed at entirely eliminating the task of opening up Notepad, pasting the content, and having to save and find a suitable directory in order to not clog your desktop up. 
-More features intended to decrease user involvement are in the works.
+copypastesaver is a CLI-based tool for Windows systems that upon execution generates a text file containing clipboard content.
 
 ## Dependencies
 pywin32
@@ -9,4 +8,4 @@ pip install pywin32
 ```
 
 ## Setup
-The only thing required is to add a desired filepath where you'd like the textfiles to be saved in functions.py.
+Add a desired filepath where you'd like the textfiles to be saved in functions.py. A directory named copypaste should be created here, with any text files generated through copypastesaver being saved inside.

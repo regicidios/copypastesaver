@@ -1,8 +1,8 @@
 import win32clipboard
+import os
 from datetime import datetime
 
-#YOUR FILEPATH HERE. NOTE: BACK SLASHES ("\") MUST BE TURNED INTO FRONT SLASHES; IF NOT, THE PROGRAM WILL NOT RUN.
-filepath = ""
+filepath = os.path.expanduser("~/Desktop")
 
 def getclipboard():
     try:
